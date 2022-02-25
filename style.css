@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+img{
+    width: 20%;
+    height: 20%;
+
+}
+body{
+    font-family: mpntserrat, sans-serif;
+    max-width: 50%;
+    margin: auto;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.face{
+ weight:150px;
+ height: 150px;
+ object-fit: cover;
+ border-radius: 50%;
+ margin-top: 20PX;
+}
+.title{
+    flex: 1;
+}
+.name{
+ color: grey;   
+}
+.coral{
+    font-family: mpntserrat, sans-serif;
+    color: coral;
+}
+.qualification{
+    letter-spacing: 1;
+    color: gray;
+}
+.hrline{
+    border: 1px solid coral;
+}
+.intro{
+    min-width: 300px;
+    font-size: 20px;
+    color: coral;
+}
